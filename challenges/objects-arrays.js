@@ -68,7 +68,8 @@ const graduates = [{"id":1,"first_name":"Cynde","university":"Missouri Southern 
 
 Once you have the new array created, sort the universities alphabetically and log the result. */
 const universities = [];
-graduates.forEach(graduate => (universities.push(graduate['first_name'])));
+graduates.forEach(graduate => (universities.push(graduate['university'])))
+universities.sort();
 
 console.log(universities)
 
