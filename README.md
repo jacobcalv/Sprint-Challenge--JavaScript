@@ -29,7 +29,7 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. Describe the biggest difference between `.forEach` & `.map`.
-
+.forEach executes over each array element once and .map creates a new array out of the returned values from the function.
 2. What is the difference between a function and a method?
 
 3. What is closure?
