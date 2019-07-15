@@ -122,7 +122,7 @@ The zoos need a list of all their animal's names (names only, not scientific) co
 */
 
 const lowerCase = [];
-zooAnimals.map(animal => (animalNames.push (animal["animal_name"].toLowerCase())));
+zooAnimals.map(animal => (lowerCase.push (animal["animal_name"].toLowerCase())));
 console.log(lowerCase); 
 
 /* Request 3: .filter() 
@@ -140,7 +140,7 @@ The zoos need to know their total animal population across the United States.  F
 
 */
 const populationTotal = 0;
-zooAnimals.reduce((populationTotal, animal) => populationTotal = populationTotal + animal['population'], 0);
+zooAnimals.reduce((populationTotal, cur) => (populationTotal + cur));
 console.log(populationTotal);
 
 
